@@ -9,7 +9,11 @@ import java.util.List;
 
 public interface MyServices {
 	
-	public List<MyEntity> getdata();
+	public List<MyEntity> getAllData();
+
+	public MyEntity getSingalData(Long id);
+
+	public MyEntity addData(MyEntity mydata);
 	
 	
 
