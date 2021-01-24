@@ -14,6 +14,8 @@ public interface MyServices {
 	public MyEntity getSingalData(Long id);
 
 	public MyEntity addData(MyEntity mydata);
+
+	public void deleteData(Long id);
 	
 	
 

@@ -1,7 +1,11 @@
 package com.Tatsam.SpringRest.Priority.entities;
 
-public class MyEntity {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
+public class MyEntity {
+	@Id
 	private long id;
 	private int priorityConnection;
 	private int priorityRelationships;
